@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression">
+    <test name="All Functionalities">
+        <classes>
+            <class name="scripts.UnitedHomePageTest">
+                <methods>
+                    <include name="Validate Main Menu navigation items"/>
+                    <include name="Validate Book travel menu navigation items"/>
+                    <include name="Validate Round-trip and One-way radio buttons"/>
+                    <include name="Validate Book with miles and Flexible dates checkboxes"/>
+                    <include name="Validate One-way ticket search results from Chicago, IL, US (ORD) to Miami, FL, US (MIA)"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
